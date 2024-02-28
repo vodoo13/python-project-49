@@ -19,12 +19,15 @@ def main():
         print(f"Question: {number}")
         user_answer = input("Your answer: ").lower()
 
-        if (is_even(number) and user_answer == "yes") or (not is_even(number) and user_answer == "no"):
+        if (is_even(number) and user_answer == "yes"):
+            print("Correct!")
+        elif (not is_even(number) and user_answer == "no"):
             print("Correct!")
             correct_answers += 1
         else:
             correct_answer = "yes" if is_even(number) else "no"
-            print(f"'{user_answer}' is wrong answer ;(. Correct answer was '{correct_answer}'.")
+            print(f"'{user_answer}' is wrong answer ;(. "
+                  f"Correct answer was '{correct_answer}'.")
             print(f"Let's try again, {name}!")
             break
 
