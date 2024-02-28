@@ -11,10 +11,8 @@ def main():
     print(f"Hello, {name}!")
     print('Answer "yes" if the number is even, otherwise answer "no".')
 
-    correct_answers_needed = 3
     correct_answers = 0
-
-    while correct_answers < correct_answers_needed:
+    while correct_answers < 3:
         number = random.randint(1, 100)
         print(f"Question: {number}")
         user_answer = input("Your answer: ").lower()
@@ -31,7 +29,7 @@ def main():
             print(f"Let's try again, {name}!")
             break
 
-    if correct_answers == correct_answers_needed:
+    if correct_answers == 3:
         print(f"Congratulations, {name}!")
 
 
