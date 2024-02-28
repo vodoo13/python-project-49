@@ -17,9 +17,7 @@ def main():
         print(f"Question: {number}")
         user_answer = input("Your answer: ").lower()
 
-        if (is_even(number) and user_answer == "yes"):
-            print("Correct!")
-        elif (not is_even(number) and user_answer == "no"):
+        if (is_even(number) and user_answer == "yes") or (not is_even(number) and user_answer == "no"):
             print("Correct!")
             correct_answers += 1
         else:
