@@ -21,9 +21,7 @@ def main():
         print(f"Question: {number}")
         user_answer = input("Your answer: ").lower()
 
-        if (IsPrime(number) and user_answer == "yes"):
-            print("Correct!")
-        elif (not IsPrime(number) and user_answer == "no"):
+        if (IsPrime(number) and user_answer == "yes") or (not IsPrime(number) and user_answer == "no"):
             print("Correct!")
             correct_answers_count += 1
         else:
