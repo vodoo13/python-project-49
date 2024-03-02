@@ -4,10 +4,9 @@ GAME_RULE = 'Answer "yes" if the number is even, otherwise answer "no".'
 
 def is_number_even(number):
     if number % 2 == 0:
-        result = 'yes'
+        return True
     else:
-        result = 'no'
-    return result
+        return False
 
 
 def get_game():
