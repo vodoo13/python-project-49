@@ -5,7 +5,7 @@ brain-even aciinema rec:
 [![asciicast](https://asciinema.org/a/iaSt7G5NXIFlVZPPwq5XBiUQf.svg)](https://asciinema.org/a/iaSt7G5NXIFlVZPPwq5XBiUQf)
 
 brain-calc asciinema rec:
-[!{asciicast](https://asciinema.org/a/O6Lro5U8cATWXE8Cv2JQTNhJD.svg)](ttps://asciinema.org/a/O6Lro5U8cATWXE8Cv2JQTNhJD)
+[![asciicast](https://asciinema.org/a/O6Lro5U8cATWXE8Cv2JQTNhJD.svg)](ttps://asciinema.org/a/O6Lro5U8cATWXE8Cv2JQTNhJD)
 
 brain-gcd asciinema rec:
 [![asciicast](https://asciinema.org/a/H8y34PhzwgLSuSS0hF3qZt1ej.svg)](https://asciinema.org/a/H8y34PhzwgLSuSS0hF3qZt1ej)
